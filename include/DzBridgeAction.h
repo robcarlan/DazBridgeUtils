@@ -1,4 +1,5 @@
 #pragma once
+#include <cstdint>
 #include <dzaction.h>
 #include <dznode.h>
 #include <DzFileIOSettings.h>

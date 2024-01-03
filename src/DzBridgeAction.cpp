@@ -3202,7 +3202,7 @@ QUuid DzBridgeAction::writeInstance(DzNode* Node, DzJsonWriter& Writer, QUuid Pa
 #ifdef __APPLE__
         return 0;
 #else
-		return false;
+		return {};
 #endif
 
 	QString Path = Node->getAssetFileInfo().getUri().getFilePath();
